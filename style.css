@@ -105,12 +105,13 @@ button {
 .quote-box {
     display: flex;
     background-color: #E5E7EB;
+    justify-content: center;
 }
 
 .quote-text {
     display: flex;
     flex-direction: column;
-    margin: 30px;
+    width: 75%;
 }
 
 .quote {
@@ -121,4 +122,5 @@ button {
 }
 .attribution {
     text-align: end;
+    font-weight: bold;
 }
