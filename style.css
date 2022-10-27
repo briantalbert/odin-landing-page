@@ -96,7 +96,7 @@ button {
     border-radius: 10px;
 }
 
-.info.pic.subtext {
+.caption {
     display: flex;
     align-items: center;
 }
