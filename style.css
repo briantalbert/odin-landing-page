@@ -98,5 +98,27 @@ button {
 
 .caption {
     display: flex;
-    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.quote-box {
+    display: flex;
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+.attribution {
+    text-align: end;
 }
