@@ -70,7 +70,8 @@ li {
 
 button {
     width: fit-content;
-    border-radius: 10px;
+    height: fit-content;
+    border-radius: 5px;
     background-color: #3882F6;
     color: #F9FAF8;
 }
@@ -86,6 +87,7 @@ button {
 .info.pics {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 20px;
 }
 
@@ -112,7 +114,7 @@ button {
 .quote-text {
     display: flex;
     flex-direction: column;
-    width: 75%;
+    width: 60%;
 }
 
 .quote {
@@ -124,4 +126,33 @@ button {
 .attribution {
     text-align: end;
     font-weight: bold;
+}
+
+.action {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.action.box {
+    display: flex;
+    background-color: #3882F6;
+    border-radius: 5px;
+}
+
+.action.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+
+.action.signup {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 0px;
+    margin: 0px;
 }
