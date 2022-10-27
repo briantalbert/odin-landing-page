@@ -106,6 +106,7 @@ button {
     display: flex;
     background-color: #E5E7EB;
     justify-content: center;
+    margin: 75px 0 75px 0;
 }
 
 .quote-text {
